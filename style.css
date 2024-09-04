@@ -1,0 +1,57 @@
+/* /* Ümumi Dizayn */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Header Dizaynı */
+header {
+    border-bottom: 2px solid #004085;
+}
+
+header a {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+/* Navigasiya Düymələri */
+nav a.btn {
+    font-size: 1rem;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+nav {
+    border-bottom: 2px solid #dee2e6;
+}
+
+/* Logo Dizaynı */
+.milli-bazar-logo {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header, nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header div, nav div {
+        text-align: center;
+    }
+
+    nav a.btn {
+        margin-bottom: 10px;
+    }
+}
+ */
